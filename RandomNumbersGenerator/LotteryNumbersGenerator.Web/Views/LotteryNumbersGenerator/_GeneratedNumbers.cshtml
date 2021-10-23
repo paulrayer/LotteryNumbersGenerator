@@ -1,0 +1,36 @@
+﻿@model LotteryNumbersGenerator.Web.ViewModel.NumberGeneratorViewModel
+
+
+@if (Model != null && Model.RandomNumbers != null)
+{
+    <h2>Generated Lottery Numbers</h2>
+
+    <table id="tblGeneratedNumbers">
+        <tr>
+            <th colspan="5"><h3>Main Numbers</h3></th>
+            @if (Model.RandomNumbers.FirstOrDefault().LuckyStars.Count() > 0)
+            {
+                <th colspan="3"><center><h3>@Model.AdditionalBallName</h3></center></th>
+            }
+        </tr>
+        @foreach (var set in Model.RandomNumbers)
+        {
+            <tr>
+                @foreach (var number in set.MainNumbers)
+                {
+                    <td class="lotteryNumbers">@number.ToString() </td>
+
+                }
+
+                @foreach (var number in set.LuckyStars)
+                {
+                    <td class="lotteryNumbers">@number.ToString() </td>
+
+                }
+                
+
+            </tr>
+            <tr><td style="height:10px"></td></tr>
+        }
+    </table>
+}

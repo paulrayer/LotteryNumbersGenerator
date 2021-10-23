@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LotteryNumbersWriter" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Folder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\LotteryNumbersGenerator</Value>
+    </Setting>
+    <Setting Name="FileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LotteryNumbersLog.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

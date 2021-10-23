@@ -1,0 +1,36 @@
+﻿@model LotteryNumbersGenerator.Web.ViewModel.NumberGeneratorViewModel
+
+@{
+    ViewBag.Title = "Lottery Numbers Generator";
+}
+
+<div>
+    <center>
+        <h2>Lottery Numbers Generator</h2>
+    </center>
+</div>
+<span></span>
+
+@Html.Hidden("url-generateNumbers", "/LotteryNumbersGenerator/GenerateNumbers")
+@Html.Hidden("url-generateNumbersUsingAPI", "/LotteryNumbersGenerator/GenerateNumbersUsingAPI")
+
+
+@using (Ajax.BeginForm(null, null, null, new { id = "frmGenerateNumbers" }))
+{
+    <form class="form-inline">
+        <div class="form-inline">
+            <label class="form-inline" style="border:none;padding-top:10px">Please enter the number of sets of lottery numbers</label>
+            <input type="text" id="txtNumberOfSets" class="form-control" style="width:50px" value="@Model.Sets" />
+
+            @Html.EnumDropDownListFor(r=>r.LotteryType, "Select a lottery type", new { @id="ddlLotteryTypes", @class="form-control"})
+            <input type="button" id="btnGenerate" class="form-control" value="Generate" />
+            <input type="button" id="btnGenerateUsingAPI" class="form-control" value="Generate using API" />
+        </div>
+    </form>
+}
+<span></span>
+<form class="form-inline" id="GeneratedNumbers">
+    <div class="form-group">
+        @Html.Partial("_GeneratedNumbers", Model)
+    </div>
+</form>

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersGenerator.Tests", "LotteryNumbersGenerator.Tests\LotteryNumbersGenerator.Tests.csproj", "{CA26BE98-0993-4EA5-9499-ED9944466AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersGenerator", "LotteryNumbersGenerator\LotteryNumbersGenerator.csproj", "{B44B7203-B8E3-48BC-BCFE-7FAAD5026D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersGenerator.Web.Tests", "LotteryNumbersGenerator.Web.Tests\LotteryNumbersGenerator.Web.Tests.csproj", "{10242B70-18AD-43C4-8B1B-B9B5196FD41F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersWriter", "LotteryNumbersWriter\LotteryNumbersWriter.csproj", "{7DD26FCE-7025-42ED-8921-640F8717D917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersWriter.Tests", "LotteryNumbersWrite.Tests\LotteryNumbersWriter.Tests.csproj", "{FD07BEDE-3A7F-4F82-8F21-509952496A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersGenerator.Api", "LotteryNumbersGenerator.Api\LotteryNumbersGenerator.Api.csproj", "{DAC4A29E-0B18-4160-B407-2EC19B27B496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersGenerator.Console", "RandomNumbersGenerator.Console\RandomNumbersGenerator.Console.csproj", "{727DAED8-6ED3-4573-AB75-C460E8D83DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersGenerator.WPF", "RandomNumbersGenerator.WPF\RandomNumbersGenerator.WPF.csproj", "{5D550DCA-E460-4B03-828C-46CDD7AC43A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersUsingUnityDI", "RandomNumbersUsingUnityDI\RandomNumbersUsingUnityDI.csproj", "{12DE752B-0E6F-4B26-8E41-A42B086345CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryNumbersGenerator.Web", "LotteryNumbersGenerator.Web\LotteryNumbersGenerator.Web.csproj", "{243D7F7A-B8B1-4E84-A19A-FACADAE2EBAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA26BE98-0993-4EA5-9499-ED9944466AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA26BE98-0993-4EA5-9499-ED9944466AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA26BE98-0993-4EA5-9499-ED9944466AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA26BE98-0993-4EA5-9499-ED9944466AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44B7203-B8E3-48BC-BCFE-7FAAD5026D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44B7203-B8E3-48BC-BCFE-7FAAD5026D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44B7203-B8E3-48BC-BCFE-7FAAD5026D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44B7203-B8E3-48BC-BCFE-7FAAD5026D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10242B70-18AD-43C4-8B1B-B9B5196FD41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10242B70-18AD-43C4-8B1B-B9B5196FD41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10242B70-18AD-43C4-8B1B-B9B5196FD41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10242B70-18AD-43C4-8B1B-B9B5196FD41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD26FCE-7025-42ED-8921-640F8717D917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD26FCE-7025-42ED-8921-640F8717D917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD26FCE-7025-42ED-8921-640F8717D917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD26FCE-7025-42ED-8921-640F8717D917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD07BEDE-3A7F-4F82-8F21-509952496A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD07BEDE-3A7F-4F82-8F21-509952496A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD07BEDE-3A7F-4F82-8F21-509952496A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD07BEDE-3A7F-4F82-8F21-509952496A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC4A29E-0B18-4160-B407-2EC19B27B496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC4A29E-0B18-4160-B407-2EC19B27B496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC4A29E-0B18-4160-B407-2EC19B27B496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC4A29E-0B18-4160-B407-2EC19B27B496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727DAED8-6ED3-4573-AB75-C460E8D83DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727DAED8-6ED3-4573-AB75-C460E8D83DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727DAED8-6ED3-4573-AB75-C460E8D83DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727DAED8-6ED3-4573-AB75-C460E8D83DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D550DCA-E460-4B03-828C-46CDD7AC43A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D550DCA-E460-4B03-828C-46CDD7AC43A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D550DCA-E460-4B03-828C-46CDD7AC43A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D550DCA-E460-4B03-828C-46CDD7AC43A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DE752B-0E6F-4B26-8E41-A42B086345CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DE752B-0E6F-4B26-8E41-A42B086345CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DE752B-0E6F-4B26-8E41-A42B086345CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DE752B-0E6F-4B26-8E41-A42B086345CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243D7F7A-B8B1-4E84-A19A-FACADAE2EBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243D7F7A-B8B1-4E84-A19A-FACADAE2EBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243D7F7A-B8B1-4E84-A19A-FACADAE2EBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243D7F7A-B8B1-4E84-A19A-FACADAE2EBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A757BCD9-D9F3-4731-A598-A80802894AEC}
+	EndGlobalSection
+EndGlobal

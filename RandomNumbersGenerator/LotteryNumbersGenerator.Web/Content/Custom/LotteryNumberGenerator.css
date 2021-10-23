@@ -1,0 +1,31 @@
+﻿.lotteryNumbers {
+    color: #000;
+    padding: 5px;
+    height: 1.5em;
+    font-weight: 400;
+    background: #fff;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 0px solid #d8d8d8;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    border-right: 10px solid transparent;
+    /*-webkit-background-clip: padding;*/
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+td {
+    width: 100px;
+}
+
+
+.lotteryNumberLabel {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.navbar navbar-inverse navbar-fixed-top {
+    background-color: red;
+}
