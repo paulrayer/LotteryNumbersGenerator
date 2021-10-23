@@ -14,6 +14,11 @@ namespace LotteryNumbersGenerator.Tests
             objLotteryNumberGenerator = new LotteryNumbersGenerator();
         }
 
+        [Test]public void DummyTest()
+        {
+            Assert.Pass();
+        }
+
         [Test]
         public void ShouldGenerateRequiredSetsOfNumbers()
         {
