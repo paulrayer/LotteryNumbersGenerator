@@ -1,0 +1,2 @@
+# LotteryNumbersGenerator
+Generates random numbers
